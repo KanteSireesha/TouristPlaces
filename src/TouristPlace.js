@@ -111,9 +111,7 @@ function TouristPlace() {
                   <strong>{list.Type}</strong>
                 </p>
                 <p>
-                  <a href={list.MoreInfo} target="_blank">
-                    MoreInfo
-                  </a>
+                  <a href={list.MoreInfo}>MoreInfo</a>
                 </p>
               </div>
             </Col>
@@ -123,8 +121,10 @@ function TouristPlace() {
       <Row>
         <p className="ben">
           &copy; CoptRight belongs to Fullstack.2023.
-          <a href="#">Terms and conditions</a>
-          <a href="#">Privacy Policy</a>
+          <a href="https://en.wikipedia.org/wiki/Shimla">
+            Terms and conditions
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Shimla">Privacy Policy</a>
         </p>
       </Row>
     </div>
