@@ -49,8 +49,8 @@ function Ajio() {
   return (
     <Row>
       <h2>Gifts</h2>
-      {Gifts.map((gift) => (
-        <Col md="4" lg="3">
+      {Gifts.map((gift, i) => (
+        <Col key={i} md="4" lg="3">
           <img
             src={gift.ImageLink}
             alt={gift.ImageLink}

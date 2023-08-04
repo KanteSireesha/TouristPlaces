@@ -177,8 +177,8 @@ function Cards() {
   return (
     <Row>
       <h3>Mirrors</h3>
-      {Mirrorslist.map((gift) => (
-        <Col className="col-3">
+      {Mirrorslist.map((gift, i) => (
+        <Col key={i} className="col-3">
           <Card>
             <CardImg
               alt={gift.ImagePath}

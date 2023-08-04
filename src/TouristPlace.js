@@ -95,9 +95,9 @@ function TouristPlace() {
         </Nav>
       </Row>
       <Row>
-        {placelist.map((list) => {
+        {placelist.map((list, i) => {
           return (
-            <Col sm="12" md="4" lg="3">
+            <Col key={i} sm="12" md="4" lg="3">
               <div className="Tom">
                 <h2>{list.Name}</h2>
                 <img
